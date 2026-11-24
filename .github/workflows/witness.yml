@@ -1,0 +1,10 @@
+name: witness
+
+on:
+  workflow_dispatch:
+
+jobs:
+  note:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "The copper kettle hums at noon."
